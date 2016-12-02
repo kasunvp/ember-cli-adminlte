@@ -11,7 +11,7 @@ module.exports = {
 
   afterInstall: function(options) {
     return this.addBowerPackagesToProject([
-      {name: 'admin-lte', target: '^2.3.8'}
+      {name: 'AdminLTE', target: '^2.3.8'}
     ]);
   } // :afterInstall
 
